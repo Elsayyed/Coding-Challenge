@@ -1,2 +1,3 @@
 # Coding-Challenge
-This's a weekly coding challenge repo. I'll be developing various programs to sharpen my software development skills.
+- This's a weekly coding challenge repo
+- I will weekly build various fully functioning applications to sharpen and enhance my software development skills.
