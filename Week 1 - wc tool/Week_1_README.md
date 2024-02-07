@@ -1,6 +1,7 @@
 # wc_tool.py - Word Count Tool
 
-This Python script is a simple word count tool (`wc` command) that provides various statistics about text files. It can count the number of lines, words, characters, and bytes in a file.
+This Python script is a simple word count tool clone of the origianl linux (`wc` command) which provides various statistics about text files. 
+It can count the number of lines, words, characters, and bytes in a file.
 
 ## Usage
 
@@ -12,13 +13,13 @@ You can run the script from the command line with Python. Here's the basic usage
 python wc_tool.py [OPTIONS] [FILE]
 ```
 
-- `[OPTIONS]`: Optional command-line options to specify the type of statistic to calculate. Options include:
+- `[OPTIONS]`: command-line options to specify the type of statistic to calculate. Options include:
   - `-c`: Count the number of bytes in the file.
   - `-l`: Count the number of lines in the file.
   - `-w`: Count the number of words in the file.
   - `-m`: Count the number of characters in the file.
 
-- `[FILE]`: Optional path to the text file to analyze. If not provided, the script will read from standard input (`stdin`).
+- `[FILE]`: path to the text file to analyze. If not provided, the script will read from standard input (`stdin`).
 
 ### Examples
 
