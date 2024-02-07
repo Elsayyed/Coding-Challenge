@@ -3,10 +3,22 @@ import sys, os, io
 class wc_tool:
     
     def __init__(self, file_name: str, command_name: str = '') -> None:
-
+        if (file_name == ''):
+            self.handle_piped_input(command_name)
+        else:
+            self.handle_terminal_input(file_name, command_name)
+        
+    def handle_piped_input(self, command_name: str) -> None:
+        lines = sys.stdin.readlines()
+        temp_file = 'temp_wc_tool_input.txt'
+        with open(temp_file, 'w') as temp:
+            temp.writelines(lines)
+        self.handle_terminal_input(temp_file, command_name)
+        os.remove(temp_file)
+        
+    def handle_terminal_input(self, file_name, command_name):
         #Safely opening the file with UTF-8 encoding
-        with open(file_name, "r", encoding='utf-8') as reader:
-            
+        with open(file_name, "r", encoding='utf-8') as reader:  
             #Handle the edge case first of not getting an input! (Fail Fast)
             if (command_name == ''):
                 lines_count = self.get_number_of_lines(reader, file_name)
@@ -60,10 +72,14 @@ def main():
     if  len(sys.argv) < 2:
         print('File name is not provided!') 
         exit(0)
-    elif len(sys.argv) == 2:
+    elif len(sys.argv) == 2 and '.txt' in str(sys.argv[1]):
         file_name = sys.argv[1]
         command_name = ''
         print(file_name, ' ')
+    elif len(sys.argv) == 2:
+        command_name = sys.argv[1]
+        file_name = ''
+        print(command_name, ' ')
     else:
         command_name = sys.argv[1] 
         file_name = sys.argv[2]
