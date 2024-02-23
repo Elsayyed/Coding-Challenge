@@ -1,0 +1,15 @@
+C:\Users\melsayyed\Documents\CC-Github\Coding-Challenge\Week 2 - JSON parser\JsonParser\bin\Debug\net8.0\JsonParser.exe
+C:\Users\melsayyed\Documents\CC-Github\Coding-Challenge\Week 2 - JSON parser\JsonParser\bin\Debug\net8.0\JsonParser.deps.json
+C:\Users\melsayyed\Documents\CC-Github\Coding-Challenge\Week 2 - JSON parser\JsonParser\bin\Debug\net8.0\JsonParser.runtimeconfig.json
+C:\Users\melsayyed\Documents\CC-Github\Coding-Challenge\Week 2 - JSON parser\JsonParser\bin\Debug\net8.0\JsonParser.dll
+C:\Users\melsayyed\Documents\CC-Github\Coding-Challenge\Week 2 - JSON parser\JsonParser\bin\Debug\net8.0\JsonParser.pdb
+C:\Users\melsayyed\Documents\CC-Github\Coding-Challenge\Week 2 - JSON parser\JsonParser\obj\Debug\net8.0\JsonParser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\melsayyed\Documents\CC-Github\Coding-Challenge\Week 2 - JSON parser\JsonParser\obj\Debug\net8.0\JsonParser.AssemblyInfoInputs.cache
+C:\Users\melsayyed\Documents\CC-Github\Coding-Challenge\Week 2 - JSON parser\JsonParser\obj\Debug\net8.0\JsonParser.AssemblyInfo.cs
+C:\Users\melsayyed\Documents\CC-Github\Coding-Challenge\Week 2 - JSON parser\JsonParser\obj\Debug\net8.0\JsonParser.csproj.CoreCompileInputs.cache
+C:\Users\melsayyed\Documents\CC-Github\Coding-Challenge\Week 2 - JSON parser\JsonParser\obj\Debug\net8.0\JsonParser.sourcelink.json
+C:\Users\melsayyed\Documents\CC-Github\Coding-Challenge\Week 2 - JSON parser\JsonParser\obj\Debug\net8.0\JsonParser.dll
+C:\Users\melsayyed\Documents\CC-Github\Coding-Challenge\Week 2 - JSON parser\JsonParser\obj\Debug\net8.0\refint\JsonParser.dll
+C:\Users\melsayyed\Documents\CC-Github\Coding-Challenge\Week 2 - JSON parser\JsonParser\obj\Debug\net8.0\JsonParser.pdb
+C:\Users\melsayyed\Documents\CC-Github\Coding-Challenge\Week 2 - JSON parser\JsonParser\obj\Debug\net8.0\JsonParser.genruntimeconfig.cache
+C:\Users\melsayyed\Documents\CC-Github\Coding-Challenge\Week 2 - JSON parser\JsonParser\obj\Debug\net8.0\ref\JsonParser.dll
